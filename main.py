@@ -100,7 +100,7 @@ st.write("Reported:", datetime.datetime.now().strftime(date_format))
 st.markdown("# Predicted Value of Your Car")
 
 if btn:
-    st.markdown(f"## ${pred_result}:.3f")
+    st.markdown(f"## ${int(pred_result)}")
 
 #Disclaimer to the user
 st.write("This prediction tends to have some bias. There is no guaranty that the exact" +
